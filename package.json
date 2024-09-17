@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "random-words": "^1.2.0",
+    "tailwind-scrollbar-hide": "^1.1.7"
+  },
+  "name": "zType",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./tailwind.css -o ./docs/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SIVANANDA-PATNAIK"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SIVANANDA-PATNAIK"
+  },
+  "homepage": "https://github.com/SIVANANDA-PATNAIK",
+  "description": ""
+}

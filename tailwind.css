@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 50 52 55;
+    --color-secondary: 226 183 20;
+    --color-bright: 255 255 255;
+    --color-dark: 00 00 00;
+    --color-error: 255 00 00;
+  }
+}
+@layer components {
+  .tool-btn {
+    @apply text-bright/30 hover:text-bright text-sm md:text-[15px];
+  }
+  .active-tool-btn {
+    @apply text-secondary;
+  }
+  .wrong {
+    @apply !text-error;
+  }
+  .correct {
+    @apply text-bright;
+  }
+
+  .cursor {
+    @apply absolute bg-secondary h-[34px] w-[2px] top-0 left-0 animate-blink;
+  }
+
+  /* Hide Scrollbar .hide-scrollbar { */
+}
