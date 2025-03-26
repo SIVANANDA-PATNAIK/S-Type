@@ -1,4 +1,4 @@
-Z-Type
+S-Type
 ## Project Overview
 
 The Typing Speed Test Web App is a modern and responsive web application designed to help users measure and improve their typing speed. Built with Tailwind CSS, the app boasts a sleek, user-friendly interface with smooth animations, customizable color palettes, and clean typography. The primary and secondary colors are set to specific RGB values to ensure a consistent visual theme across the app. One of the standout features is the "blink" animation for the cursor, which provides a clear visual indicator of the typing position. The app also incorporates custom styles for various components and functionality to hide scrollbars for a cleaner look.
